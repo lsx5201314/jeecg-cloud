@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: jeecg-cloud-redis
+    host: 127.0.0.1
     password: ''
     port: 6379
   cloud:

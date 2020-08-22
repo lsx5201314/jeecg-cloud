@@ -25,8 +25,8 @@ spring:
         max-request-size: 10MB
   mail:
     host: smtp.163.com
-    username: jeecgos@163.com
-    password: ??
+    username: 18649378183@163.com
+    password: abc12345..
     properties:
       mail:
         smtp:
@@ -130,7 +130,7 @@ spring:
         connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
       datasource:
         master:
-          url: jdbc:mysql://jeecg-cloud-mysql:3306/jeecg-cloud?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true
+          url: jdbc:mysql://127.0.0.1:3306/jeecg-cloud?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true
           username: root
           password: root
           driver-class-name: com.mysql.jdbc.Driver
@@ -143,7 +143,7 @@ spring:
   #redis 配置
   redis:
     database: 0
-    host: jeecg-cloud-redis
+    host: 127.0.0.1:6379
     lettuce:
       pool:
         max-active: 8   #最大连接数据库连接数,设 0 为没有限制
@@ -187,10 +187,10 @@ jeecg :
   #阿里云oss存储配置
   oss:
     endpoint: oss-cn-beijing.aliyuncs.com
-    accessKey: ??
-    secretKey: ??
-    bucketName: jeecgos
-    staticDomain: https://static.jeecg.com
+    accessKey: LTAI4FeRa2VSbaJE3oVjrdKB
+    secretKey: kYRt4e4wtnWcdBx0j7nrnUdpP2UR9F
+    bucketName: liumouren
+    #staticDomain: https://static.jeecg.com
   # ElasticSearch 6设置
   elasticsearch:
     cluster-name: jeecg-ES
