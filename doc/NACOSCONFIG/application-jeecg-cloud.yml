@@ -187,9 +187,9 @@ jeecg :
   #阿里云oss存储配置
   oss:
     endpoint: oss-cn-beijing.aliyuncs.com
-    accessKey: LTAI4FeRa2VSbaJE3oVjrdKB
-    secretKey: kYRt4e4wtnWcdBx0j7nrnUdpP2UR9F
-    bucketName: liumouren
+    accessKey: ???
+    secretKey: ???
+    bucketName: 
     #staticDomain: https://static.jeecg.com
   # ElasticSearch 6设置
   elasticsearch:
